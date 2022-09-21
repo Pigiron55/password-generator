@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body id="background">
+        <h1>Generate a</h1>
+        <h1 id="highlight" >random password</h1>
+        <h3>Never use an insecure password again</h3>
+         <div class="generateOption">
+             <label for="passRangeEl" class="checkboxLabel" id="passwordLength">Password Length</Label>
+            <div class="rangepassword">
+                
+                <button class="btn-range" onclick="passRangeDecrement()">-</button>
+                <p id="passRangeEl">15</p>
+                <button class="btn-range" onclick="passRangeIncrement()">+</button>
+            </div>
+            <input type="checkbox" onclick="isNumbers(characters, 10)" id="isNumberPassword" class="checkboxpass">
+            <label for="isNumberPassword" class="checkboxLabel" id="numbers">Numbers</label>
+            
+            <input type="checkbox" onclick="isSymbols(characters, 29)" id="isSymbolPassword" class="checkboxpass">
+            <label for="isSymbols" class="checkboxLabel" id="symbols">Symbols</label>
+        </div>
+    <div>
+        <button id="btn" onclick="generatePassWord()">Generate Passwords</button>
+    </div>
+        <div id="border"></div>
+        <div id="box">
+            <div type="text" id="password1btn" class="password"></div>
+            <div >
+            <button id="copy1" onclick="CopyToClipboard('password1btn');return false;">Copy</button> 
+            </div>
+            <div type="text" id="password2btn" class="password"></div>
+            <div>
+            <button id="copy2" onclick="CopyToClipboard('password2btn');return false;">Copy</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

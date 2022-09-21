@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 40px;
+    background: #1F2937;
+    text-align: left;
+    color: white;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+        
+}
+
+#background {
+    background-size: cover;
+    max-width: 640;
+    max-height: 520;
+    margin: auto;
+    margin-top: 20%;
+    border: 6px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #4C5B61;
+    
+        
+}
+
+h1 {
+    margin: 0;
+}
+
+#highlight {
+    color: #4ADF86;
+    margin: 0;
+    }
+
+h4 {
+    margin: 10px;
+}
+
+#btn {
+    background: #10B981;
+    border-radius: 10px;
+    width: 191px;
+    height: 42px;
+    margin: 40px 10px 40px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+#btn:hover{
+    background: #4AD189;
+}
+
+#copy1 {
+    background: #10B981;
+    border-radius: 10px;
+    width: 50px;
+    height: 42px;
+    margin: 39px 24px 0px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+#copy2 {
+    background: #10B981;
+    border-radius: 10px;
+    width: 50px;
+    height: 42px;
+    margin: 39px 24px 0px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+#border {
+    border: 1px solid #2F3E53;
+}
+
+#box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+#password1btn {
+    background: #273549;
+    border-radius: 6px;
+    width: 211px;
+    height: 39px;
+    margin: 39px 24px 0px 0px;
+    padding-top: 10px;
+}
+
+#password2btn {
+    background: #273549;
+    border-radius: 6px;
+    width: 211px;
+    height: 39px;
+    margin: 39px 24px 0px 0px;
+    padding-top: 10px;
+}
+
+.password {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    text-align: center;
+    color: #55F991;
+}
+
+/*Generation Options */
+
+.generateOption{
+    display: inline-flex;
+    align-items: flex-start;
+    height: 25px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#passwordLength{
+    margin-right: 1em;
+    margin-left: 0;
+   
+    
+}
+
+.rangepassword{
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    overflow: hidden;
+    border-radius: 50px;
+    width: 70px;
+    height: 25px;
+    justify-content: space-between;
+    border:1px solid #273549;
+}
+
+.btn-range{
+    border:none;
+    background: #10B981;
+    height:25px;
+    font-size: 1em;
+    color:#fff;
+}
+.btn-range:hover{
+    background: #4AD189;
+}
+.checkboxpass{
+    margin-left: 1em;
+    color: #4AD189;
+    margin: 5px 0px 0px 45px;
+}
+.checkboxLabel{
+    margin-left:0.5em;
+    color:#fff;
+    font-size: 25px;
+}
